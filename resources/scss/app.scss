@@ -68,6 +68,16 @@
                 }
             }
         }
+
+        /* create comics */
+        .color_white {
+            color: white;
+        }
+
+        .color-form {
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+        }
     }
 
     /* detail_comic */
@@ -138,4 +148,5 @@
             }
         }
     }
+
 }
