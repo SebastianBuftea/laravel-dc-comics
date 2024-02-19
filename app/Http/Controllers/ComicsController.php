@@ -26,7 +26,8 @@ class ComicsController extends Controller
      */
     public function create()
     {
-        //
+        $links = config('links');
+        return view('comics.create_comic', compact('links'));
     }
 
     /**

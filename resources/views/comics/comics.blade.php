@@ -8,6 +8,13 @@
         <section class="cards_">
             <div class="container py-3">
                 <div class="row ">
+                    <div class="col-12">
+                        <div class="col-12 d-flex justify-content-end">
+                            <a href="{{ route('comics.create') }}" class="m-3">
+                                <button class="btn btn-info ">Add NewComic</button>
+                            </a>
+                        </div>
+                    </div>
                     @foreach ($comics as $comic)
                         <div class="col-2">
                             <a href="{{ route('comics.show', ['comic' => $comic['id']]) }}">
