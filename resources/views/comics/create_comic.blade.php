@@ -38,9 +38,9 @@
                                 placeholder="Enter the Series of the comic" required>
                         </div>
                         <div class="form-group">
-                            <label for="sale_data" class="my-1">Sale data</label>
-                            <input type="date" name="sale_data" id="sale_data" class="form-control my-1"
-                                placeholder="Enter the Sale data of the comic" required>
+                            <label for="sale_date" class="my-1">Sale data</label>
+                            <input type="date" name="sale_date" id="sale_date" class="form-control my-1"
+                                placeholder="Enter the Sale date of the comic" required>
                         </div>
                         <div class="form-group">
                             <label for="type" class="my-1">Type</label>

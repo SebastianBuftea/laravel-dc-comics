@@ -11,7 +11,7 @@
                     <div class="col-12">
                         <div class="col-12 d-flex justify-content-end">
                             {{-- creiamo il collegamento alla pagina che conterrà le form di inseriemnto  --}}
-                            <a href="{{ route('comics.create') }}" class="m-3">
+                            <a href="{{ route('comics.create') }}" class="my-3">
                                 <button class="btn btn-info ">Add NewComic</button>
                             </a>
                         </div>
