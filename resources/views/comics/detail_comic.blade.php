@@ -34,7 +34,12 @@
                     <div><strong>Artists:</strong> {{ $item['artists'] }}</div>
                 </div>
             </div>
-            <div class="row"></div>
+            <div class="col-12 d-flex justify-content-end">
+                {{-- creiamo il collegamento alla pagina che modifichera il comic  --}}
+                <a href="{{ route('comics.edit', ['comic' => $item->id]) }}" class="my-3">
+                    <button class="btn btn-warning "> Modify Comic</button>
+                </a>
+            </div>
         </div>
     </main>
 @endsection
