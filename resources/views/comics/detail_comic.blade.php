@@ -39,6 +39,14 @@
                 <a href="{{ route('comics.edit', ['comic' => $item->id]) }}" class="my-3">
                     <button class="btn btn-warning "> Modify Comic</button>
                 </a>
+                <form action="{{ route('comics.destroy', ['comic' => $item->id]) }}" method="POST" class="my-3">
+                    @csrf
+                    @method('DELETE')
+
+                    <a href="{{ route('comics.edit', ['comic' => $item->id]) }}" class="mx-2">
+                        <button class="btn btn-danger " type="submit"> Delete Comic</button>
+                    </a>
+                </form>
             </div>
         </div>
     </main>
